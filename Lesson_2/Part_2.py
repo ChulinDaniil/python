@@ -1,9 +1,9 @@
-list = input('привет, напиши что-нибудь ').split()
-print(list)
+x = input('привет, напиши что-нибудь ').split()
+print(x)
 
-item = 0
-for a in range(int(len(list) / 2)):
-    list[item], list[item + 1] = list[item + 1], list[item]
-    item += 2
+y = 0
+for z in range(int(len(x) / 2)):
+    x[y], x[y + 1] = x[y + 1], x[y]
+    y = y + 2
 
-print(list)
+print(z)
